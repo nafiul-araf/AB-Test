@@ -1,3 +1,19 @@
+### **Scenario**
+
+A fast-food chain is introducing a new menu item but is unsure which of three proposed marketing campaigns will maximize its sales. To determine the most effective strategy, the chain has conducted an experiment. Each campaign (Promotion 1, Promotion 2, and Promotion 3) was tested in randomly selected locations across various markets for four weeks. Weekly sales data for the new item was collected during this period.
+
+The **current average weekly sales** for newly launched products is **\$50,000 per location**. The marketing team has set a goal to increase sales by at least **\$4,000 per week per location**. Therefore, any promotion that raises the average weekly sales to **\$54,000 or more** will be considered a success. The experiment aims to identify which, if any, of the campaigns meets or exceeds this benchmark and determines which campaign performs best overall.
+
+--- 
+
+### **Goal**
+The goal is to analyze the weekly sales data to evaluate the performance of the three promotional strategies. Using A/B testing techniques, you will determine:
+1. Which promotion, if any, significantly increases weekly sales to the target of **$54,000 or more per location**.
+2. Whether there are statistically significant differences in the effectiveness of the three campaigns.
+3. The marketing campaign that works best for maximizing sales of the new menu item.
+
+--- 
+
 ### **Overview**
 The code performs an A/B testing analysis to evaluate three marketing campaigns (Promotions 1, 2, and 3) for their impact on weekly sales. It follows a structured data science approach involving:
 1. **Data Preprocessing**
