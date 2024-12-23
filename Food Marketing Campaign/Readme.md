@@ -140,3 +140,54 @@ The code follows a systematic approach:
 - **Analyzes data distributions and trends**.
 - Conducts appropriate **statistical tests** to evaluate the promotions’ performance.
 - Provides actionable insights into the most effective campaign (Promotion 1).
+
+
+
+### Summary: Evaluating Marketing Campaigns for a New Menu Item
+
+#### Objective:
+A fast-food chain tested three marketing campaigns (Promotion 1, Promotion 2, Promotion 3) to determine which maximizes weekly sales of a new menu item. The goal was to identify campaigns achieving average weekly sales of $54,000 or more, representing a $4,000 increase over the $50,000 baseline.
+
+---
+
+#### Methodology:
+1. **Data Preprocessing & EDA**: Analyzed weekly sales data collected from randomly selected locations over four weeks.
+2. **Hypothesis Testing**: 
+   - **Normality Tests**: Checked assumptions for statistical tests.
+   - **Kruskal-Wallis Test**: Assessed overall differences in sales among campaigns.
+   - **Tukey HSD Test**: Conducted pairwise comparisons of sales between campaigns.
+
+---
+
+#### Results:
+- **Average Weekly Sales**:
+  - Promotion 1: $58,100
+  - Promotion 2: $47,330
+  - Promotion 3: $55,360
+
+- **Tukey HSD Pairwise Comparisons**:
+  1. **Promotion 1 vs. Promotion 2**:  
+     - Significant difference; Promotion 1 performs better.  
+  2. **Promotion 1 vs. Promotion 3**:  
+     - No significant difference.  
+  3. **Promotion 2 vs. Promotion 3**:  
+     - Significant difference; Promotion 3 performs better.  
+
+- **Effect Size & Sample Size**:
+  - Calculated Cohen's d to measure effect size.
+  - Sample sizes required for future experiments:  
+    - Campaign 1: 66 samples  
+    - Campaign 2: 503 samples  
+    - Campaign 3: 154 samples  
+
+---
+
+#### Insights:
+- **Best Performers**: Promotion 1 and Promotion 3, both achieving sales above the $54,000 target.
+- **Worst Performer**: Promotion 2, with significantly lower sales.
+- **Recommendation**: Promotion 1 or Promotion 3 are viable choices, depending on cost-effectiveness and qualitative factors.
+
+---
+
+#### Caution:
+- Campaign 2's small sample size may limit the reliability of results. Further experimentation with adequate representation is recommended to validate findings.
